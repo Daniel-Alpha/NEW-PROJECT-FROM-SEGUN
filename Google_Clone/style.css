@@ -1,0 +1,152 @@
+body {
+  box-sizing: border-box;
+  font-size: 13px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+a:visited,
+a:active{
+  color: blue;
+}
+a:hover {
+    color: rgba(0,4,89);
+    text-decoration: underline;
+
+}
+
+.Container {
+  position: relative;
+  width: 100%;
+}
+
+header {
+  display: inline-block;
+  top: 0;
+  width: 100%;
+  margin-bottom: 150px;
+}
+header ul {
+  list-style: none;
+  float: right;
+  line-height: 150%;
+}
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+#signInButton {
+  padding: 5px 8px 5px 8px;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+input[type="text"] {
+    background-color: white;
+    background-image: url('googleMic.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    line-height: 34px;
+    font-size: 16px;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 100%;
+    border-style: none;
+    title: Search by Google;
+
+}
+
+#searchArea{
+	width: 584px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    outline: none;
+}
+
+#searchArea:hover {
+	box-shadow: 0 3px 5px #d9d9d9;
+}
+
+#buttonSection {
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+	color: #222;
+	border: 1px solid #ccc;
+
+}
+
+
+.TextSection {
+	padding: 10px;
+
+}
+
+.Footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+}
+.Footer a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: rgba(0, 0, 0, 0.808);
+    text-decoration: underline;
+}
+#topFooter {
+  padding: 10px 10px 10px 20px;
+  border-bottom: 0.25px solid rgba(0, 0, 0, 0.54);
+}
+#footerLeft {
+  display: inline-block;
+  padding: 10px 10px 10px 20px;
+  margin: 0;
+}
+#footerLeft li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#footerRight {
+  display: inline-block;
+  padding: 10px 20px 10px 0;
+  margin: 0;
+  float: right;
+}
+#footerRight li {
+  display: inline;
+  margin-left: 10px;
+}
